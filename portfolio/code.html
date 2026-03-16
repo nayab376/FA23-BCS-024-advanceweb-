@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#3b89f7",
+                        "background-light": "#f5f7f8",
+                        "background-dark": "#101722",
+                    },
+                    fontFamily: {
+                        "display": ["Inter"]
+                    },
+                    borderRadius: {"DEFAULT": "0.5rem", "lg": "1rem", "xl": "1.5rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<title>Nayab Zaman | Portfolio</title>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 transition-colors duration-300">
+<header class="fixed top-0 left-0 right-0 z-50 bg-white/80 dark:bg-background-dark/80 backdrop-blur-md border-b border-slate-200 dark:border-slate-800">
+<div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">terminal</span>
+</div>
+<h1 class="text-xl font-bold tracking-tight">Nayab Zaman</h1>
+</div>
+<div class="flex items-center gap-4">
+<button class="p-2 rounded-lg bg-slate-100 dark:bg-slate-800 hover:bg-primary/10 hover:text-primary transition-colors">
+<span class="material-symbols-outlined">light_mode</span>
+</button>
+<div class="h-10 w-10 rounded-full border-2 border-primary overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Professional portrait of a young woman smiling" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDjIdpu48Cs0gwP3j1wkXAIOXLYvkPgb9TkmBqakCpSrOE4YuDnfdnOcTWFL-3AtyZUh7a1PteWJS4_S-bRKpRaEr4ZSa4Z9wVnLyFcUUaLM4lFVj5MoQMhLklIRgfSQVIrFSERbQDv4avVPzkb9JfVT0HbWCqje6S5YWayo0Wb5G-cqGmMavX0R0WEd3FAt92AZOMYz9e32L7JwKmnWQEXdzH8dM1npNpImxYtQbVsjVSWsmq_JzghlGLvzFkOI6FL494FddC7Xk8"/>
+</div>
+</div>
+</div>
+</header>
+<div class="flex pt-16 min-h-screen max-w-7xl mx-auto px-6 gap-8">
+<main class="flex-1 py-8 space-y-24 mb-20">
+<section class="flex flex-col md:flex-row items-center gap-12 pt-12" id="home">
+<div class="flex-1 space-y-6">
+<div class="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-semibold">
+                        Available for hire
+                    </div>
+<h2 class="text-5xl md:text-6xl font-extrabold leading-tight">
+                        Hi, I'm <span class="text-primary">Nayab</span>. <br/>Web Developer.
+                    </h2>
+<p class="text-lg text-slate-600 dark:text-slate-400 max-w-lg">
+                        Building modern web experiences with React, Tailwind, and Supabase. I transform complex problems into elegant, user-centric digital solutions.
+                    </p>
+<div class="flex gap-4">
+<button class="bg-primary text-white px-8 py-3 rounded-xl font-bold hover:shadow-lg hover:shadow-primary/30 transition-all flex items-center gap-2">
+<span class="material-symbols-outlined text-[20px]">download</span>
+                            Download CV
+                        </button>
+<button class="border border-slate-200 dark:border-slate-800 px-8 py-3 rounded-xl font-bold hover:bg-slate-50 dark:hover:bg-slate-800 transition-all">
+                            Hire Me
+                        </button>
+</div>
+</div>
+<div class="relative group">
+<div class="absolute -inset-4 bg-primary/20 rounded-full blur-2xl group-hover:bg-primary/30 transition-all"></div>
+<div class="relative w-64 h-64 md:w-80 md:h-80 rounded-3xl overflow-hidden border-4 border-white dark:border-slate-800 shadow-2xl">
+<img class="w-full h-full object-cover" data-alt="Professional young woman sitting at a desk" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDD7iNpK_3Jr_j_uWN0iDNsdQ3Z1hpPCmcZlaSdjOMIXMruUfEGoX3m0ZP3tjW7S77AqbFjdtc-H1m5hUQRpKKMeBwEoPO6zYA8Cw8441dF9luH-xbBBgYAV0m8GbNpsicpA_3HAcnEbmoS3eVjGTEPhY8HYCyNJxYv4Sf5H02937-jDGdtX6e2fc9BXBHxNMxkXvYvl16UY4ZtSrKSiK_jVVg7jhjkEnc1-NaSjiE2iVPnM0hAZ3EjGQ_DQ-sioSmYHQ0ZPo8wzc8"/>
+</div>
+</div>
+</section>
+<section class="space-y-6" id="about-me">
+<div class="flex items-center gap-4">
+<h3 class="text-3xl font-bold">About Me</h3>
+<div class="h-px bg-slate-200 dark:bg-slate-800 flex-1"></div>
+</div>
+<div class="grid md:grid-cols-2 gap-8 text-slate-600 dark:text-slate-400 leading-relaxed text-lg">
+<p>
+                        I am a passionate Web Developer focused on creating sleek, professional user interfaces. My journey started with a fascination for how design meets logic, leading me to specialize in modern JavaScript frameworks.
+                    </p>
+<p>
+                        My career goal is to build scalable applications that solve real-world problems through clean code and intuitive design. When I'm not coding, I'm exploring UI/UX trends or contributing to open-source projects.
+                    </p>
+</div>
+</section>
+<section class="space-y-8" id="skills">
+<div class="flex items-center gap-4">
+<h3 class="text-3xl font-bold">Skills</h3>
+<div class="h-px bg-slate-200 dark:bg-slate-800 flex-1"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6">
+<div class="space-y-2">
+<div class="flex justify-between font-semibold"><span>HTML/CSS</span><span>95%</span></div>
+<div class="w-full h-3 bg-slate-200 dark:bg-slate-800 rounded-full overflow-hidden">
+<div class="h-full bg-primary rounded-full w-[95%]"></div>
+</div>
+</div>
+<div class="space-y-2">
+<div class="flex justify-between font-semibold"><span>JavaScript</span><span>90%</span></div>
+<div class="w-full h-3 bg-slate-200 dark:bg-slate-800 rounded-full overflow-hidden">
+<div class="h-full bg-primary rounded-full w-[90%]"></div>
+</div>
+</div>
+<div class="space-y-2">
+<div class="flex justify-between font-semibold"><span>React</span><span>88%</span></div>
+<div class="w-full h-3 bg-slate-200 dark:bg-slate-800 rounded-full overflow-hidden">
+<div class="h-full bg-primary rounded-full w-[88%]"></div>
+</div>
+</div>
+<div class="space-y-2">
+<div class="flex justify-between font-semibold"><span>Node.js</span><span>82%</span></div>
+<div class="w-full h-3 bg-slate-200 dark:bg-slate-800 rounded-full overflow-hidden">
+<div class="h-full bg-primary rounded-full w-[82%]"></div>
+</div>
+</div>
+<div class="space-y-2">
+<div class="flex justify-between font-semibold"><span>Database (SQL/NoSQL)</span><span>85%</span></div>
+<div class="w-full h-3 bg-slate-200 dark:bg-slate-800 rounded-full overflow-hidden">
+<div class="h-full bg-primary rounded-full w-[85%]"></div>
+</div>
+</div>
+</div>
+</section>
+<section class="space-y-8" id="projects">
+<div class="flex items-center gap-4">
+<h3 class="text-3xl font-bold">Featured Projects</h3>
+<div class="h-px bg-slate-200 dark:bg-slate-800 flex-1"></div>
+</div>
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+<div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl overflow-hidden group hover:border-primary transition-all">
+<div class="h-48 bg-slate-100 dark:bg-slate-800 relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform" data-alt="Data dashboard interface showing charts" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCItrT4FvZMdya_435t1mWlHX1La-deBJGTCI37PbvdyVLtPIpim6Ri2hRsUEnnjHEWgwS-oZM3iyEyGtUe7dHKloGZlvPBWloTLdilaWx6W9g0ZBqxDl2t2QTmbAw1H9KfUJGBg4T0V5NcMPlCvgXqWM9LdgFwyZsw2t2hpNoCkmQNNT2zczGLxntITOlFmZFJh6kiI41fj9zhMO5N1Wged1tg3jM_8F_m73U9qh34XhoZtAyJPOuXDPdKVg0n2wGqtqOQQKq7NUU"/>
+</div>
+<div class="p-6 space-y-4">
+<h4 class="text-xl font-bold">SaaS Dashboard</h4>
+<p class="text-sm text-slate-600 dark:text-slate-400">A comprehensive analytics dashboard for modern businesses.</p>
+<div class="flex flex-wrap gap-2">
+<span class="px-2 py-1 text-[10px] bg-primary/10 text-primary font-bold rounded">REACT</span>
+<span class="px-2 py-1 text-[10px] bg-primary/10 text-primary font-bold rounded">TAILWIND</span>
+<span class="px-2 py-1 text-[10px] bg-primary/10 text-primary font-bold rounded">SUPABASE</span>
+</div>
+<a class="inline-flex items-center gap-2 text-primary font-bold hover:underline" href="#">
+<span class="material-symbols-outlined text-[18px]">code</span>
+                                View Source
+                            </a>
+</div>
+</div>
+<div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl overflow-hidden group hover:border-primary transition-all">
+<div class="h-48 bg-slate-100 dark:bg-slate-800 relative">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform" data-alt="E-commerce mobile app mockup" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCSk9sU6XE9f1aZkceHaJ2xmfq3Hj5vibdqkDvlWwPoEKQLQFIUC4do4Ca8H6V6wugB32AptOA7Nv0bTFZF8xR71oezzRd5V1Z72LpK9rUzmb-wU1apefpkJ2ph50Ly-GXJZ7g-p3WCBH2P0YmfY8kiVJE5mcnK2dhAduiz-0Fx2a3-5VzGepLzMxMMeRTjmp44v0XG6R4wHr8CLegYFTUVJ74STWUiqq0J6_quaU9RKyj9nWPTGCEtABQc09LZMyQ5x6kJFkeBUzk"/>
+</div>
+<div class="p-6 space-y-4">
+<h4 class="text-xl font-bold">Eco-Commerce</h4>
+<p class="text-sm text-slate-600 dark:text-slate-400">Environmentally friendly marketplace with fast checkout.</p>
+<div class="flex flex-wrap gap-2">
+<span class="px-2 py-1 text-[10px] bg-primary/10 text-primary font-bold rounded">REACT</span>
+<span class="px-2 py-1 text-[10px] bg-primary/10 text-primary font-bold rounded">NODE.JS</span>
+<span class="px-2 py-1 text-[10px] bg-primary/10 text-primary font-bold rounded">POSTGRES</span>
+</div>
+<a class="inline-flex items-center gap-2 text-primary font-bold hover:underline" href="#">
+<span class="material-symbols-outlined text-[18px]">code</span>
+                                View Source
+                            </a>
+</div>
+</div>
+</div>
+</section>
+<section class="grid md:grid-cols-2 gap-12" id="experience">
+<div class="space-y-8">
+<div class="flex items-center gap-4">
+<h3 class="text-3xl font-bold">Experience</h3>
+<div class="h-px bg-slate-200 dark:bg-slate-800 flex-1"></div>
+</div>
+<div class="space-y-8 border-l-2 border-primary/20 ml-3 pl-8 relative">
+<div class="relative">
+<div class="absolute -left-10 top-0 w-4 h-4 rounded-full bg-primary shadow-[0_0_0_4px_rgba(59,137,247,0.2)]"></div>
+<h4 class="font-bold text-lg">Senior Frontend Developer</h4>
+<p class="text-primary font-medium">TechFlow Solutions • 2022 - Present</p>
+<p class="mt-2 text-slate-600 dark:text-slate-400 text-sm">Leading the frontend team in developing modular React architectures and improving performance metrics by 40%.</p>
+</div>
+<div class="relative">
+<div class="absolute -left-10 top-0 w-4 h-4 rounded-full bg-primary/40"></div>
+<h4 class="font-bold text-lg">Web Developer Intern</h4>
+<p class="text-primary font-medium">Creative Agency • 2021 - 2022</p>
+<p class="mt-2 text-slate-600 dark:text-slate-400 text-sm">Developed responsive landing pages and collaborated with UI designers to implement pixel-perfect components.</p>
+</div>
+</div>
+</div>
+<div class="space-y-8">
+<div class="flex items-center gap-4">
+<h3 class="text-3xl font-bold">Education</h3>
+<div class="h-px bg-slate-200 dark:bg-slate-800 flex-1"></div>
+</div>
+<div class="space-y-8 border-l-2 border-primary/20 ml-3 pl-8 relative">
+<div class="relative">
+<div class="absolute -left-10 top-0 w-4 h-4 rounded-full bg-primary shadow-[0_0_0_4px_rgba(59,137,247,0.2)]"></div>
+<h4 class="font-bold text-lg">B.Sc. in Computer Science</h4>
+<p class="text-primary font-medium">Global University of Tech • 2018 - 2022</p>
+<p class="mt-2 text-slate-600 dark:text-slate-400 text-sm">Graduated with Honors. Specialized in Software Engineering and Distributed Systems.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="space-y-8" id="contact">
+<div class="flex items-center gap-4">
+<h3 class="text-3xl font-bold">Contact</h3>
+<div class="h-px bg-slate-200 dark:bg-slate-800 flex-1"></div>
+</div>
+<div class="grid lg:grid-cols-2 gap-12 bg-white dark:bg-slate-900 p-8 rounded-3xl border border-slate-200 dark:border-slate-800 shadow-sm">
+<div class="space-y-6">
+<h4 class="text-2xl font-bold">Get in touch</h4>
+<p class="text-slate-600 dark:text-slate-400">Have a project in mind? Let's talk about how I can help you build something amazing.</p>
+<div class="space-y-4">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center">
+<span class="material-symbols-outlined">mail</span>
+</div>
+<div>
+<p class="text-xs text-slate-400 uppercase font-bold">Email</p>
+<p class="font-semibold">nayab.zaman@example.com</p>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center">
+<span class="material-symbols-outlined">share</span>
+</div>
+<div>
+<p class="text-xs text-slate-400 uppercase font-bold">Social</p>
+<p class="font-semibold">linkedin.com/in/nayabzaman</p>
+</div>
+</div>
+</div>
+</div>
+<form class="space-y-4">
+<div class="grid grid-cols-2 gap-4">
+<div class="space-y-2">
+<label class="text-sm font-semibold">Name</label>
+<input class="w-full bg-slate-50 dark:bg-slate-800 border-none rounded-xl focus:ring-2 focus:ring-primary/50 py-3" placeholder="Jane Doe" type="text"/>
+</div>
+<div class="space-y-2">
+<label class="text-sm font-semibold">Email</label>
+<input class="w-full bg-slate-50 dark:bg-slate-800 border-none rounded-xl focus:ring-2 focus:ring-primary/50 py-3" placeholder="jane@example.com" type="email"/>
+</div>
+</div>
+<div class="space-y-2">
+<label class="text-sm font-semibold">Message</label>
+<textarea class="w-full bg-slate-50 dark:bg-slate-800 border-none rounded-xl focus:ring-2 focus:ring-primary/50 py-3" placeholder="Your message..." rows="4"></textarea>
+</div>
+<button class="w-full bg-primary text-white py-4 rounded-xl font-bold hover:shadow-lg hover:shadow-primary/30 transition-all">
+                            Send Message
+                        </button>
+</form>
+</div>
+</section>
+</main>
+<aside class="hidden lg:block w-64 pt-8">
+<nav class="fixed w-64 space-y-2">
+<a class="flex items-center gap-3 px-4 py-3 rounded-xl bg-primary/10 text-primary font-bold transition-all" href="#home">
+<span class="material-symbols-outlined">home</span>
+                    Home
+                </a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 font-medium transition-all" href="#about-me">
+<span class="material-symbols-outlined">person</span>
+                    About Me
+                </a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 font-medium transition-all" href="#skills">
+<span class="material-symbols-outlined">terminal</span>
+                    Skills
+                </a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 font-medium transition-all" href="#projects">
+<span class="material-symbols-outlined">grid_view</span>
+                    Projects
+                </a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 font-medium transition-all" href="#experience">
+<span class="material-symbols-outlined">work</span>
+                    Experience
+                </a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 font-medium transition-all" href="#contact">
+<span class="material-symbols-outlined">mail</span>
+                    Contact
+                </a>
+</nav>
+</aside>
+</div>
+<footer class="max-w-7xl mx-auto px-6 py-8 border-t border-slate-200 dark:border-slate-800 flex justify-between items-center">
+<p class="text-sm text-slate-500">© 2024 Nayab Zaman. Built with Tailwind CSS.</p>
+<div class="flex gap-4">
+<a class="text-slate-400 hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined">public</span></a>
+<a class="text-slate-400 hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined">code</span></a>
+<a class="text-slate-400 hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined">person_add</span></a>
+</div>
+</footer>
+</body></html>
