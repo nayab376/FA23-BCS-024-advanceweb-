@@ -17,8 +17,11 @@ Click on SQLite, MySQL, or MongoDB box → CRUD interface will open.
 - SQLite DB (`mydb.sqlite`) is automatically created by Node.js.  
 - MySQL requires `testdb` with `users` table (id, name, email).  
 - MongoDB database `testdb` will be created automatically.
-  ## Screenshots
+  ## Screenshot
 ![Screenshot](screenshot(92).png)
 ![Screenshot](screenshot(104).png)
 ![Screenshot](screenshot(105).png)
   
+##link for live
+ https://nayab376.github.io/FA23-BCS-024-advanceweb-/
+
