@@ -18,7 +18,7 @@ Click on SQLite, MySQL, or MongoDB box → CRUD interface will open.
 - MySQL requires `testdb` with `users` table (id, name, email).  
 - MongoDB database `testdb` will be created automatically.
   ## Screenshots
-![Screenshot](Screenshot(92).png)
-![Screenshot](Screenshot(104).png)
-![Screenshot](Screenshot(105).png)
+![Screenshot](screenshot(92).png)
+![Screenshot](screenshot(104).png)
+![Screenshot](screenshot(105).png)
   
