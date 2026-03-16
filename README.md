@@ -23,5 +23,5 @@ Click on SQLite, MySQL, or MongoDB box → CRUD interface will open.
 ![Screenshot](screenshot(105).png)
   
 ##link for live
- https://nayab376.github.io/FA23-BCS-024-advanceweb-/
+ https://nayab376.github.io/FA23-BCS-024-advanceweb-
 
