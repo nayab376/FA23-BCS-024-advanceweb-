@@ -82,13 +82,12 @@ curl -X POST http://localhost:3000/users \
 - REST API
 
 
+
 ## 📸 Screenshots
 
-![Screenshot 1](./Screenshot(130).png)
-![Screenshot 2](./Screenshot(132).png)
+[![Screenshot 1](./screenshot-130.png)](./screenshot-130.png)
 
-
-
+[![Screenshot 2](./screenshot-132.png)](./screenshot-132.png)
 
 
 
