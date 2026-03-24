@@ -81,6 +81,21 @@ curl -X POST http://localhost:3000/users \
 - Express Router
 - REST API
 
+
+## 📸 Screenshots
+
+![Screenshot 1](./Screenshot(130).png)
+![Screenshot 2](./Screenshot(132).png)
+
+
+
+
+
+
+
+
+
+
 ---
 
 ⭐ For academic use
